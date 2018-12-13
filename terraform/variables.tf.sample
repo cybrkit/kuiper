@@ -1,0 +1,14 @@
+# General Settings
+variable "project_id" { default = "project-123456" }
+variable "region" { default = "us-central1" }
+
+# Kubernetes Settings
+
+variable "kubernetes_cluster_name" { default = "cluster" }
+
+variable "kubernetes_username" { default = "username" }
+variable "kubernetes_password" { default = "password" }
+
+variable "kubernetes_machine_type" { default = "f1-micro" }
+variable "kubernetes_disk_size" { default = "10"}
+variable "kubernetes_node_count" { default = "3" }
