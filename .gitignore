@@ -1,0 +1,7 @@
+*.iml
+.idea
+terraform/account.json
+terraform/variables.tf
+*.tfstate*
+.terraform/*
+.terraform
